@@ -1,0 +1,256 @@
+@CHARSET "UTF-8";
+
+
+body 
+{
+width: 1200px;
+margin: auto;
+}
+
+body,p,legend,label,input 
+{
+font: normal 10pt verdana, helvetica, sans-serif;
+}
+
+#main_wrapper 
+{
+margin-bottom: 15px;
+margin-top: 15px;
+}
+
+header 
+{
+	
+}
+
+#general_title {
+	display: inline-block;
+}
+
+header h1 {
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+header h1 small {
+	font-family: Dayrom, serif;
+	font-size: 0.7em;
+	margin-top: 0px;
+	font-weight: normal;
+}
+
+#logo_general,header h1 {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+#exit_link
+{
+margin-left: 600px;
+width: 48px;
+height: 48px;
+}
+
+footer 
+{
+	
+}
+
+fieldset {
+	padding: 10px;
+	border: 1px black solid;
+}
+
+legend {
+	font-weight: bold;
+	color: black;
+}
+
+form label {
+	float: left;
+	width: 300px;
+	margin: 3px 0px 0px 0px;
+}
+
+form input {
+	margin: 3px 3px 0px 0px;
+	border: 1px #999 solid;
+}
+
+form input.sansLabel {
+	margin-left: 200px;
+}
+
+form .requis {
+	color: #c00;
+}
+
+.error {
+	color: #900;
+}
+
+.success {
+	color: #090;
+}
+
+#menu,#menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 25px;
+	text-align: center;
+}
+
+#menu {
+	border-radius: 17px;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 12px;
+	margin: auto;
+}
+
+#menu a {
+	display: block;
+	padding: 0;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	width: 175px;
+}
+
+#menu li /* Elements des listes */ {
+	display: inline-block;
+}
+
+#exit_link {
+	float: right;
+	margin-top: 80px;
+	margin-right: 20px;
+}
+
+#menu li ul /* Sous-listes */ {
+	position: absolute; /* Position absolue */
+	width: 175px; /* Largeur des sous-listes */
+	left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+#menu li ul ul {
+	margin: -22px 0 0 175px;
+}
+
+#menu a:hover {
+	color: #000;
+	background: #fff;
+}
+
+#menu li:hover ul ul,#menu li.sfhover ul ul {
+	left: -999em;
+}
+
+/* 
+Sous-listes lorsque la souris passe sur un élément de liste 
+ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste 
+*/
+#menu li:hover ul,#menu li li:hover ul,#menu li.sfhover ul,#menu li li.sfhover ul {
+	left: auto;
+}
+
+.home_icon_access {
+	padding: 10px 10px 10px 10px;
+	border: solid black 2px;
+	border-radius: 7px;
+}
+
+#icon_home_vision {
+	
+}
+
+#icon_home_configuration {
+	
+}
+
+#icon_home_help {
+	
+}
+
+table {
+	width: 850px;
+	margin: auto;
+	border-collapse:collapse;
+}
+
+.table_functions {
+	list-style: none;
+}
+
+.table_functions li {
+display: inline-block;
+}
+
+.table_functions a {
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+
+table tr {
+	background-color: #E8EDFF;
+}
+
+table th {
+	text-transform: uppercase;
+	background-color: #B9C9FE;
+}
+
+table th, table td {
+	text-align: center;
+	padding: 8px;
+}
+
+table tr:hover {
+	background-color: #CABAFF;
+}
+
+canvas 
+{
+border: 1px solid black;
+margin-top: 15px;
+}
+
+#tool_bar
+{
+border: 1px solid black;
+}
+
+#tool_bar ul li
+{
+list-style-type: none;
+display: inline;
+}
+
+#pallierContentList
+{
+float: right;
+margin-top: 15px;
+width: 280px;
+}
+
+canvas, #pallierContentList
+{
+display: inline-block;
+}
+
+#pallierContentList h1
+{
+background-color: #C3C3C3;
+}
+
+.LocationList
+{
+margin-top: 10px;
+}
+
+#pallierContentList .LocationList h3 ui-icon-trash
+{
+
+}
+

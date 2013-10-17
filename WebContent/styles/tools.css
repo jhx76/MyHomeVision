@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+#tool_bar
+{
+border: 1px solid black;
+}
+
+#tool_bar ul li
+{
+list-style-type: none;
+display: inline;
+}
